@@ -1,0 +1,3 @@
+[submodule "libs/lynx"]
+	path = libs/lynx
+	url = https://github.com/jpanther/lynx

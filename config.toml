@@ -1,0 +1,28 @@
+baseURL = "https://liaosirui.com/"
+
+defaultContentLanguage = "zh"
+languageCode           = "zh"
+
+title = "LiaoSirui"
+
+copyright = '备案号: 蜀ICP备17003301号-1'
+
+disableKinds = ["taxonomy", "term"]
+enableEmoji  = true
+
+[author]
+    headline = "a devops coder and focus on golang and k8s. 💬"
+    image    = "logo.jpeg"
+    name     = "廖思睿(Sirui Liao)"
+
+    links = [
+        { facebook = { href = "mailto:cyril@liaosirui.com", "text" = "cyril@liaosirui.com", icon = "flickr" } },
+        { github = { href = "https://github.com/LiaoSirui", text = "GitHub", target = "_self" } },
+        { stack-exchange = { href = "https://github.com/LiaoSirui/blog.liaosirui.com/", text = "博客", target = "_self", icon = "stack-exchange" } },
+        { google = { href = "https://resume.liaosirui.com/", text = "简历", target = "_self", icon = "instagram" } },
+    ]
+
+[module]
+    [module.hugoVersion]
+        extended = false
+        min      = "0.86.1"
