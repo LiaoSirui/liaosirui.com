@@ -2,7 +2,7 @@
 hugo:
 	CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
 
-.PHONY: serve
+.PHONY:
 serve: hugo
 	hugo server --navigateToChanged -D
 
