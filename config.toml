@@ -5,7 +5,7 @@ languageCode           = "zh"
 
 title = "LiaoSirui"
 
-copyright = '备案号: 蜀ICP备17003301号-1'
+copyright = '[川公网安备51010702043024号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51010702043024) | [蜀ICP备17003301号-1](http://beian.miit.gov.cn/)'
 
 disableKinds = ["taxonomy", "term"]
 enableEmoji  = true
